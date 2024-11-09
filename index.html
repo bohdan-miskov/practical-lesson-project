@@ -6,69 +6,79 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@500&family=Inter:opsz,wght@14..32,100..900&family=Montserrat:wght@100..900&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Business promotion</title>
   </head>
   <body>
     <header class="header">
-      <a class="logo" href="./index.html">
-        <img src="./images/logo.svg" alt="logo" width="40" height="36" />
-        Product
-      </a>
-      <nav class="navigation">
-        <ul class="navigation-list">
-          <li class="navigation-item">
-            <a class="navigation-link" href="./index.html">Product</a>
+      <div class="container header-container">
+        <a class="header-logo" href="./index.html">
+          <img src="./images/logo.svg" alt="logo" width="40" height="36" />
+          Product
+        </a>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link current-link" href="./index.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./customer.html">Customers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Resources</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-btn-list">
+          <li class="btn-item">
+            <button class="btn-sign" type="button">Sign Up</button>
           </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="./pricing.html">Pricing</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="./customer.html">Customers</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="">Resources</a>
+          <li class="btn-item">
+            <button class="btn-sign" type="button">Sign In</button>
           </li>
         </ul>
-      </nav>
-      <ul class="header-button-list">
-        <li class="header-button-item">
-          <button class="button-sign-up" type="button">Sign Up</button>
-        </li>
-        <li class="header-button-item">
-          <button class="button-sign-in" type="button">Sign In</button>
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <!-- Main page section -->
-      <section class="main-page-section">
-        <h1 class="title">Work at the speed of thought</h1>
-        <p class="main-page-section-text">
-          Tools, tutorials, design and innovation experts, all in one place! The
-          most intuitive way to imagine your next user experience.
-        </p>
-        <ul class="main-page-buttons-list">
-          <li class="main-page-buttons-item">
-            <button class="button-get-started" type="button">
-              Get started
-            </button>
-          </li>
-          <li class="main-page-buttons-item">
-            <button class="button-watch-the-video" type="button">
-              Watch the Video
-            </button>
-          </li>
-        </ul>
-        <img
-          class="main-page-section-image"
-          src="./images/product-page-images/hero-img.svg"
-          alt="hero-img"
-          width="610"
-          height="555"
-        />
+      <section class="hero-section">
+        <div class="container hero-container">
+          <div class="hero-content">
+            <h1 class="hero-title">Work at the speed of thought</h1>
+            <p class="hero-text">
+              Tools, tutorials, design and innovation experts, all in one place!
+              The most intuitive way to imagine your next user experience.
+            </p>
+            <ul class="hero-btn-list">
+              <li class="hero-btn-item">
+                <button class="btn-started" type="button">Get started</button>
+              </li>
+              <li class="hero-btn-item">
+                <button class="btn-watch" type="button">Watch the Video</button>
+              </li>
+            </ul>
+          </div>
+          <img
+            class="hero-image"
+            src="./images/product-page-images/hero-img.svg"
+            alt="hero-img"
+            width="610"
+            height="555"
+          />
+        </div>
       </section>
       <!-- Benefits section -->
       <section class="benefits-section">
