@@ -165,5 +165,124 @@ img{
 /* #endregion */
 
 
+.benefits-section {
+    padding-bottom: 50px;
+}
 
+.benefits-title {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #22343d;
+    margin-bottom: 50px;
+}
 
+.benefits-list {
+    display: flex;
+    gap:30px;
+    margin-bottom: 50px;
+}
+
+.benefits-item {
+   
+}
+
+.benefits-subtitle {
+    margin-bottom: 10px;
+}
+
+.benefits-btn {
+    border: none;
+    background: #12897a;
+    border-radius: 4px;
+    min-width: 175px;
+    height: 53px;
+    padding: 14px 32px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.services-list {}
+
+.services-item {}
+
+.services-lead {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.services-subtitle {
+    font-size: 32px;
+}
+
+.sublist-title{
+    font-weight: 600;
+}
+
+.sublist-title::not(:last-child)
+{
+    margin-bottom: 12px;
+}
+
+.management-list {}
+
+.management-item {}
+
+.support-list {}
+
+.support-item {}
+
+.collaborative-list {}
+
+.collaborative-item {}
+
+.expert-section {}
+
+.expert-title {}
+
+.expert-list {}
+
+.expert-item {}
+
+.expert-btn {}
+
+.strategies-section {}
+
+.strategies-title {}
+
+.strategies-list {}
+
+.strategies-item {}
+
+.strategies-subtitle {}
+
+.price-section {}
+
+.container {}
+
+.price-title {}
+
+.price-list {}
+
+.price-item {}
+
+.price-subtitle {}
+
+.price-btn {}
+
+.response-section {}
+
+.response-title {}
+
+.response-list {}
+
+.response-item {}
+
+.response-subtitle {}
+
+.joined-article {}
+
+.joined-title {}
+
+.joined--btn {}
