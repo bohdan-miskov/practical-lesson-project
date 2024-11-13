@@ -100,6 +100,19 @@ img{
 
 /* #endregion */
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .container {
     width: 1150px;
     margin: 0 auto;
@@ -164,6 +177,8 @@ img{
 
 /* #endregion */
 
+/* #region benefits-section-styles */
+
 
 .benefits-section {
     padding-bottom: 50px;
@@ -184,7 +199,7 @@ img{
 }
 
 .benefits-item {
-   
+   width: calc((100% - 30px * 3) / 4);
 }
 
 .benefits-subtitle {
@@ -192,6 +207,7 @@ img{
 }
 
 .benefits-btn {
+    display: block;
     border: none;
     background: #12897a;
     border-radius: 4px;
@@ -202,11 +218,20 @@ img{
     color: #fff;
     margin: 0 auto;
 }
+/* #endregion */
 
-.services-list {}
+/* #region services-section styles */
 
-.services-item {}
 
+.services-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services-content-container{
+    width: 486px;
+}
 .services-lead {
     font-weight: 600;
     margin-bottom: 8px;
@@ -214,39 +239,81 @@ img{
 
 .services-subtitle {
     font-size: 32px;
+    margin-bottom: 25px;
 }
 
-.sublist-title{
+
+.services-item-text {
+    margin-bottom: 30px;
+}
+
+
+.services-sublist-item:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.services-sublist-title {
     font-weight: 600;
-}
-
-.sublist-title::not(:last-child)
-{
     margin-bottom: 12px;
 }
 
-.management-list {}
+/* #endregion */
 
-.management-item {}
+/* #region expert-section styles */
 
-.support-list {}
 
-.support-item {}
+.expert-section {
+    padding-top: 150px;
+}
 
-.collaborative-list {}
+.expert-title {
+    text-align: center;
+    font-size: 32px;
+    color: #22343d;
+    margin-bottom: 25px;
+}
 
-.collaborative-item {}
+.expert-text{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
 
-.expert-section {}
+.expert-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 100px;
+    row-gap:25px;
+    margin-bottom: 50px;
+}
 
-.expert-title {}
+.expert-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
-.expert-list {}
+.expert-item-text{
+    box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
+    padding: 20px 14px;
+}
 
-.expert-item {}
+.expert-btn {
+    display: block;
+    cursor: pointer;
+    border:none;
+    min-width: 216px;
+    height: 53px;
+    background: #02897a;
+    border-radius: 4px;
+    padding: 14px 30px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 auto;
+}
 
-.expert-btn {}
-
+/* #endregion */
 .strategies-section {}
 
 .strategies-title {}
