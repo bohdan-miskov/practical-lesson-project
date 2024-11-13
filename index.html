@@ -22,7 +22,7 @@
   <body>
     <header class="header">
       <div class="container header-container">
-        <a class="header-logo" href="./index.html">
+        <a class="logo header-logo" href="./index.html">
           <img src="./images/logo.svg" alt="logo" width="40" height="36" />
           Product
         </a>
@@ -350,38 +350,57 @@
       <section class="price-section">
         <div class="container">
           <h2 class="price-title">Price Table</h2>
-          <p>We offer competitive price</p>
+          <p class="price-text">We offer competitive price</p>
           <ul class="price-list">
             <li class="price-item">
               <h3 class="price-subtitle">Free</h3>
-              <p>Brief price description</p>
-              <p>0</p>
-              <ul>
-                <li>Only 2 Operators</li>
-                <li>Notifications</li>
-                <li>Landing Pages</li>
+              <p class="price-item-text">Brief price description</p>
+              <span class="price-cost-container">
+                <p class="price-cost">0</p>
+                <span class="price-cost-details-container">
+                  <p class="price-cost-currency">$</p>
+                  <p class="price-cost-term">Per / month</p>
+                </span>
+              </span>
+
+              <ul class="price-advantages-list">
+                <li class="price-advantages-item">Only 2 Operators</li>
+                <li class="price-advantages-item">Notifications</li>
+                <li class="price-advantages-item">Landing Pages</li>
               </ul>
               <button class="price-btn">Order Now</button>
             </li>
             <li class="price-item">
               <h3 class="price-subtitle">Standard</h3>
-              <p>Brief price description</p>
-              <p>5</p>
-              <ul>
-                <li>5+ Operators</li>
-                <li>Notifications</li>
-                <li>Landing Pages</li>
+              <p class="price-item-text">Brief price description</p>
+              <span class="price-cost-container">
+                <p class="price-cost">5</p>
+                <span class="price-cost-details-container">
+                  <p class="price-cost-currency">$</p>
+                  <p class="price-cost-term">Per / month</p>
+                </span>
+              </span>
+              <ul class="price-advantages-list">
+                <li class="price-advantages-item">5+ Operators</li>
+                <li class="price-advantages-item">Notifications</li>
+                <li class="price-advantages-item">Landing Pages</li>
               </ul>
               <button class="price-btn">Order Now</button>
             </li>
             <li class="price-item">
               <h3 class="price-subtitle">Premium</h3>
-              <p>Brief price description</p>
-              <p>10</p>
-              <ul>
-                <li>10+ Operators</li>
-                <li>Notifications</li>
-                <li>Landing Pages</li>
+              <p class="price-item-text">Brief price description</p>
+              <span class="price-cost-container">
+                <p class="price-cost">10</p>
+                <span class="price-cost-details-container">
+                  <p class="price-cost-currency">$</p>
+                  <p class="price-cost-term">Per / month</p>
+                </span>
+              </span>
+              <ul class="price-advantages-list">
+                <li class="price-advantages-item">10+ Operators</li>
+                <li class="price-advantages-item">Notifications</li>
+                <li class="price-advantages-item">Landing Pages</li>
               </ul>
               <button class="price-btn">Order Now</button>
             </li>
@@ -392,62 +411,77 @@
       <section class="response-section">
         <div class="container">
           <h2 class="response-title">What Clients Say</h2>
-          <p>
-            Problems trying to resolve the conflict between the two major realms
-            of Classical physics: Newtonian mechanics
+          <p class="response-text">
+            Problems trying to resolve the conflict between<br />
+            the two major realms of Classical physics: Newtonian mechanics
           </p>
           <ul class="response-list">
             <li class="response-item">
-              <p>
+              <p class="response-item-text">
                 Product helps you see how many more days you need to work to
                 reach your financial goal.
               </p>
-              <img
-                src="./images/product-page-images/Ellipse2.png"
-                alt="Man designer photo"
-                width="50"
-                height="50"
-              />
-              <h3 class="response-subtitle">Wahid Ari</h3>
-              <p>Designer</p>
+
+              <span class="response-profile">
+                <img
+                  src="./images/product-page-images/Ellipse2.png"
+                  alt="Man designer photo"
+                  width="50"
+                  height="50"
+                />
+                <span class="response-profile-data">
+                  <h3 class="response-subtitle">Wahid Ari</h3>
+                  <p class="response-profile-type">Designer</p>
+                </span>
+              </span>
             </li>
             <li class="response-item">
-              <p>
+              <p class="response-item-text">
                 Product helps you see how many more days you need to work to
                 reach your financial goal.
               </p>
-              <img
-                src="./images/product-page-images/Ellipse2-1.png"
-                alt="Man designer photo"
-                width="50"
-                height="50"
-              />
-              <h3 class="response-subtitle">Wahid Ari</h3>
-              <p>Designer</p>
+              <span class="response-profile">
+                <img
+                  src="./images/product-page-images/Ellipse2-1.png"
+                  alt="Man designer photo"
+                  width="50"
+                  height="50"
+                />
+                <span class="response-profile-data">
+                  <h3 class="response-subtitle">Wahid Ari</h3>
+                  <p class="response-profile-type">Designer</p>
+                </span>
+              </span>
             </li>
             <li class="response-item">
-              <p>
+              <p class="response-item-text">
                 Product helps you see how many more days you need to work to
                 reach your financial goal.
               </p>
-              <img
-                src="./images/product-page-images/Ellipse2-2.png"
-                alt="Man designer photo"
-                width="50"
-                height="50"
-              />
-              <h3 class="response-subtitle">Wahid Ari</h3>
-              <p>Designer</p>
+              <span class="response-profile">
+                <img
+                  src="./images/product-page-images/Ellipse2-2.png"
+                  alt="Man designer photo"
+                  width="50"
+                  height="50"
+                />
+                <span class="response-profile-data">
+                  <h3 class="response-subtitle">Wahid Ari</h3>
+                  <p class="response-profile-type">Designer</p>
+                </span>
+              </span>
             </li>
           </ul>
         </div>
       </section>
       <!-- Article about company which joined to Product -->
       <article class="joined-article">
-        <h2 class="joined-title">
-          Join 100 Compannies who boost their business with Product
-        </h2>
-        <button class="joined--btn">Get This</button>
+        <div class="joined-text-container">
+          <h2 class="joined-title">
+            Join 100 Compannies who boost their business with Product
+          </h2>
+          <button class="joined--btn">Get This</button>
+        </div>
         <img
           src="./images/product-page-images/screen.svg"
           alt="photo of analytic screen"
@@ -457,42 +491,66 @@
       </article>
     </main>
     <footer class="footer">
-      <a class="logo" href="./index.html">
-        <img src="./images/logo.svg" alt="logo" width="40" height="36" />
-        Product
-      </a>
-      <ul class="footer-socials-list">
-        <li class="footer-socials-item">
-          <img src="./images/instagram.svg" alt="instagram logo" />
-        </li>
-        <li class="footer-socials-item">
-          <img src="./images/item-2.svg" alt="facebook logo" />
-        </li>
-        <li class="footer-socials-item">
-          <img src="./images/item-3.svg" alt="twitter logo" />
-        </li>
-      </ul>
-      <ul class="footer-list">
-        <li class="footer-item">
-          <p>Resource</p>
-          <ul>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">FAQ</a></li>
-          </ul>
-        </li>
-        <li class="footer-item">
-          <p>Legal Stuff</p>
-          <ul>
-            <li><a href="">Disclaimer</a></li>
-            <li><a href="">Financing</a></li>
-            <li><a href="">Privacy Policy</a></li>
-            <li><a href="">Terms of Service</a></li>
-          </ul>
-        </li>
-      </ul>
-      <p>Made With Love By Figmaland All Right Reserved</p>
+      <div class="container">
+        <a class="logo footer-logo" href="./index.html">
+          <img src="./images/logo.svg" alt="logo" width="40" height="36" />
+          Product
+        </a>
+        <ul class="footer-socials-list">
+          <li class="footer-socials-item">
+            <img src="./images/instagram.svg" alt="instagram logo" />
+          </li>
+          <li class="footer-socials-item">
+            <img src="./images/item-2.svg" alt="facebook logo" />
+          </li>
+          <li class="footer-socials-item">
+            <img src="./images/item-3.svg" alt="twitter logo" />
+          </li>
+        </ul>
+        <ul class="footer-list">
+          <li class="footer-item">
+            <p class="footer-sublist-title">Resource</p>
+            <ul class="footer-sublist">
+              <li class="footer-sublist-item">
+                <a class="footer-sublist-link" href="">About Us</a>
+              </li>
+              <li class="footer-sublist-item">
+                <a class="footer-sublist-link" href="">Blog</a>
+              </li>
+              <li class="footer-sublist-item">
+                <a class="footer-sublist-link" href="">Contact</a>
+              </li>
+              <li class="footer-sublist-item">
+                <a class="footer-sublist-link" href="">FAQ</a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer-item">
+            <p class="footer-sublist-title">Legal Stuff</p>
+            <ul class="footer-sublist">
+              <li class="footer-sublist-item">
+                <a class="footer-sublist-link" href="">Disclaimer</a>
+              </li>
+              <li class="footer-sublist-item">
+                <a class="footer-sublist-link" href="">Financing</a>
+              </li>
+              <li class="footer-sublist-item">
+                <a class="footer-sublist-link" href="">Privacy Policy</a>
+              </li>
+              <li class="footer-sublist-item">
+                <a class="footer-sublist-link" href="">Terms of Service</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <p class="footer-form-title">
+          knowing you're always on the best energy deal.
+        </p>
+        <button class="footer-button" type="button">Sign up Now</button>
+        <p class="footer-text">
+          Made With Love By Figmaland All Right Reserved
+        </p>
+      </div>
     </footer>
   </body>
 </html>
