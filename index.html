@@ -23,7 +23,9 @@
     <header class="header">
       <div class="container header-container">
         <a class="logo header-logo" href="./index.html">
-          <img src="./images/logo.svg" alt="logo" width="40" height="36" />
+          <svg class="icon-logo" width="40" height="36">
+            <use href="./images/symbol-defs.svg#icon-logo"></use>
+          </svg>
           Product
         </a>
         <nav class="nav">
@@ -495,18 +497,32 @@
         <div class="footer-top-container">
           <div class="footer-socials-container">
             <a class="logo footer-logo" href="./index.html">
-              <img src="./images/logo.svg" alt="logo" width="40" height="36" />
+              <svg class="logo-icon" width="40" height="36">
+                <use href="./images/symbol-defs.svg#icon-logo"></use>
+              </svg>
               Product
             </a>
             <ul class="footer-socials-list">
               <li class="footer-socials-item">
-                <img src="./images/instagram.svg" alt="instagram logo" />
+                <a href="" class="footer-social-link">
+                  <svg class="instagram-icon" width="24" height="24">
+                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a>
               </li>
               <li class="footer-socials-item">
-                <img src="./images/item-2.svg" alt="facebook logo" />
+                <a href="" class="footer-social-link">
+                  <svg class="facebook-icon" width="24" height="24">
+                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
               </li>
               <li class="footer-socials-item">
-                <img src="./images/item-3.svg" alt="twitter logo" />
+                <a href="" class="footer-social-link">
+                  <svg class="twitter-icon" width="24" height="24">
+                    <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
           </div>
@@ -550,6 +566,14 @@
             <p class="footer-form-title">
               knowing you're always on the best energy deal.
             </p>
+            <form class="footer-form">
+              <label class="footer-email-label">
+                <input class="footer-email-input" type="tel" name="user-email-input" placeholder="Enter your phone number">
+                  <svg class="footer-input-icon" width="18" height="28">
+                    <use href="./images/symbol-defs.svg#icon-mobile-screen"></use>
+                  </svg>
+              </label>
+            </form>
             <button class="footer-button" type="button">Sign up Now</button>
           </div>
         </div>
