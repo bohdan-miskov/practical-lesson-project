@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="universities-icon" viewBox="0 0 32 32">
+      <path fill="#d6b1ff" d="M6.667 1.333h-4a1.335 1.335 0 0 0-1.334 1.334v26.667a1.335 1.335 0 0 0 1.334 1.334h4V1.335z" style="fill:var(--color2, #d6b1ff)"/>
+      <path fill="#f03e3d" d="M9.333 30.667h13.333V1.334H9.333v29.333zM16 25.333a1.334 1.334 0 1 1 0-2.667 1.334 1.334 0 0 1 0 2.667zm0-18.666a1.335 1.335 0 0 1 .943 2.277A1.334 1.334 0 1 1 16 6.667zm0 8a1.334 1.334 0 1 1 0 2.667 1.334 1.334 0 0 1 0-2.667zM29.333 1.333h-4v29.333h4a1.334 1.334 0 0 0 1.334-1.334V2.665a1.334 1.334 0 0 0-1.334-1.334z" style="fill:var(--color3, #f03e3d)"/>
+    </symbol>
+    <symbol id="accountants-icon" viewBox="0 0 32 32">
+      <path fill="#d6b1ff" d="M28 32H16a1.334 1.334 0 0 1-1.334-1.334v-2.667A1.334 1.334 0 0 1 16 26.665h12a1.334 1.334 0 0 1 1.334 1.334v2.667A1.334 1.334 0 0 1 28 32z" style="fill:var(--color2, #d6b1ff)"/>
+      <path fill="#11b5e4" d="M28 0H4a1.335 1.335 0 0 0-1.334 1.334v2.667A1.335 1.335 0 0 0 4 5.335h24a1.335 1.335 0 0 0 1.334-1.334V1.334A1.334 1.334 0 0 0 28 0zM28 8H4a1.335 1.335 0 0 0-1.334 1.334v13.333A1.335 1.335 0 0 0 4 24.001h24a1.334 1.334 0 0 0 1.334-1.334V9.334A1.334 1.334 0 0 0 28 8z" style="fill:var(--color4, #11b5e4)"/>
+    </symbol>
+    <symbol id="enterpreneur-icon" viewBox="0 0 32 32">
+      <path fill="#d6b1ff" d="M24 13.333h8L28 8l-4 5.333zm0 5.334h8L28 24l-4-5.333z" style="fill:var(--color2, #d6b1ff)"/>
+      <path fill="#02897a" d="M1.333 0h8v32h-8a1.334 1.334 0 0 1-1.334-1.334V1.333A1.335 1.335 0 0 1 1.333-.001zM12 0h8a1.335 1.335 0 0 1 1.334 1.334v29.333A1.334 1.334 0 0 1 20 32.001h-8v-32z" style="fill:var(--color1, #02897a)"/>
+    </symbol>
+  </defs>
+</svg>

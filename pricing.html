@@ -6,6 +6,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   <link rel="stylesheet" href="./css/pricing-styles.css" />
   <title>Business promotion - Pricing</title>
 </head>
@@ -113,7 +120,7 @@
         <h2 class="enterprise-title">ENTERPRISE</h2>
         <p class="enterprise-lead">Are you interested  in a custom-tailored plan?</p>
         <p class="enterprise-text">Product is a set of advanced features for really large teams with projects.</p>
-        <button class="enterprise-button" type="button">Get in touch with us</button>
+        <button class="enterprise-button green-btn" type="button">Get in touch with us</button>
       </div>
      </section>
 
@@ -126,7 +133,9 @@
                 <li class="using-item">
                   <div class="using-item-title-container">
                     <span class="using-icon-container">
-                     <img src="./images/pricing-page-images/interpreneur.svg" alt="interpreneur icon" width="50" height="50">
+                     <svg class="using-icon" width="24" height="24">
+                       <use href="./images/pricing-page-images/symbol-defs.svg#enterpreneur-icon"></use>
+                     </svg>
                     </span>
                     <h3 class="using-subtitle">Enterpreneur</h3>
                   </div>
@@ -135,7 +144,9 @@
                 <li class="using-item">
                   <div class="using-item-title-container">
                     <span class="using-icon-container">
-                      <img src="./images/pricing-page-images/accountants.svg" alt="accountants icon" width="50" height="50">
+                      <svg class="using-icon" width="24" height="24">
+                        <use href="./images/pricing-page-images/symbol-defs.svg#accountants-icon"></use>
+                      </svg>
                     </span>
                     <h3 class="using-subtitle">Accountants</h3>
                   </div>
@@ -144,7 +155,9 @@
                 <li class="using-item">
                   <div class="using-item-title-container">
                     <span class="using-icon-container">
-                      <img src="./images/pricing-page-images/universities.svg" alt="universities icon" width="50" height="50">
+                      <svg class="using-icon" width="24" height="24">
+                        <use href="./images/pricing-page-images/symbol-defs.svg#universities-icon"></use>
+                      </svg>
                     </span>
                     <h3 class="using-subtitle">Universities</h3>
                   </div>
@@ -156,62 +169,62 @@
      </section>
 
      <section class="asked-section">
-      <div class="container">
+      <div class="container asked-container">
         <h2 class="asked-title">Frequently asked question</h2>
         <p class="asked-text">Something is not clear? You need help? Check our FAQ section</p>
         <ul class="asked-list">
           <li class="asked-item">
-            <div class="asked-item-title-container">
-              <button type="button" class="asked-item-btn">
-                <img src="./images/pricing-page-images/plus_circle.svg" alt="plus icon" width="24" height="24">
-              </button>
-              <h3 class="asked-subtitle">What are my payment option?</h3>
+            <div class="asked-item-content-container">
+              <div class="asked-item-title-container">
+                <button type="button" class="asked-item-btn"></button>
+                <h3 class="asked-subtitle">What are my payment option?</h3>
+              </div>
+              <p class="asked-item-text"></p>
+              <p class="asked-item-appear-text">After creating your account you will have an
+                oppurtunity to create your first project that will be associated withthe
+                collaborators e-mail. An invitation  will be sent automatically. Then,
+                invited user will have to confirm his account by e-mail and finish userd
+                onboarding.</p>
             </div>
-            <p class="asked-item-text"></p>
-            <p class="asked-item-appear-text">After creating your account you will have an 
-              oppurtunity to create your first project that will be associated withthe 
-              collaborators e-mail. An invitation  will be sent automatically. Then, 
-              invited user will have to confirm his account by e-mail and finish userd 
-              onboarding.</p>
           </li>
           <li class="asked-item">
-            <div class="asked-item-title-container">
-              <button type="button" class="asked-item-btn">
-                <img src="./images/pricing-page-images/plus_circle.svg" alt="plus icon" width="24" height="24">
-              </button>
-              <h3 class="asked-subtitle">How can I invite collaborator to platform?</h3>
+            <div class="asked-item-content-container">
+              <div class="asked-item-title-container">
+                <button type="button" class="asked-item-btn"></button>
+                <h3 class="asked-subtitle">How can I invite collaborator to platform?</h3>
+              </div>
+              <p class="asked-item-appear-text">After creating your account you will have an
+                oppurtunity to create your first project that will be associated withthe
+                collaborators e-mail. An invitation  will be sent automatically. Then,
+                invited user will have to confirm his account by e-mail and finish userd
+                onboarding.</p>
             </div>
-            <p class="asked-item-appear-text">After creating your account you will have an 
-              oppurtunity to create your first project that will be associated withthe 
-              collaborators e-mail. An invitation  will be sent automatically. Then, 
-              invited user will have to confirm his account by e-mail and finish userd 
-              onboarding.</p>
           </li>
           <li class="asked-item">
-            <div class="asked-item-title-container">
-              <button type="button" class="asked-item-btn">
-                <img src="./images/pricing-page-images/plus_circle.svg" alt="plus icon" width="24" height="24">
-              </button>
-              <h3 class="asked-subtitle">Can I upgrade my plan?</h3>
+            <div class="asked-item-content-container">
+              <div class="asked-item-title-container">
+                <button type="button" class="asked-item-btn"></button>
+                <h3 class="asked-subtitle">Can I upgrade my plan?</h3>
+              </div>
+              <p class="asked-item-appear-text">After creating your account you will have an
+                oppurtunity to create your first project that will be associated withthe
+                collaborators e-mail. An invitation  will be sent automatically. Then,
+                invited user will have to confirm his account by e-mail and finish userd
+                onboarding.</p>
             </div>
-            <p class="asked-item-appear-text">After creating your account you will have an 
-              oppurtunity to create your first project that will be associated withthe 
-              collaborators e-mail. An invitation  will be sent automatically. Then, 
-              invited user will have to confirm his account by e-mail and finish userd 
-              onboarding.</p>
           </li>
           <li class="asked-item">
-            <div class="asked-item-title-container">
-              <button type="button" class="asked-item-btn">
-                <img src="./images/pricing-page-images/plus_circle.svg" alt="plus icon" width="24" height="24">
-              </button>
-              <h3 class="asked-subtitle">Can I cancel my plan at anytime?</h3>
+            <div class="asked-item-content-container">
+              <div class="asked-item-title-container">
+                <button type="button" class="asked-item-btn"></button>
+                <h3 class="asked-subtitle">Can I cancel my plan at anytime?</h3>
+              </div>
+              <p class="asked-item-appear-text">After creating your account you will have an
+                oppurtunity to create your first project that will be associated withthe
+                collaborators e-mail. An invitation  will be sent automatically. Then,
+                invited user will have to confirm his account by e-mail and finish userd
+                onboarding.</p>
             </div>
-            <p class="asked-item-appear-text">After creating your account you will have an 
-              oppurtunity to create your first project that will be associated withthe 
-              collaborators e-mail. An invitation  will be sent automatically. Then, 
-              invited user will have to confirm his account by e-mail and finish userd 
-              onboarding.</p>
           </li>
         </ul>
       </div>
@@ -223,7 +236,7 @@
           <h2 class="joined-title">
             Join 100 Compannies who boost their business with Product
           </h2>
-          <button class="joined--btn">Get This</button>
+          <button class="joined-btn">Get This</button>
         </div>
         <img
           src="./images/product-page-images/screen.svg"
@@ -315,7 +328,7 @@
                   </svg>
               </label>
             </form>
-            <button class="footer-button" type="button">Sign up Now</button>
+            <button class="footer-button green-btn" type="button">Sign up Now</button>
           </div>
         </div>
         <p class="footer-bottom-text">
@@ -323,5 +336,8 @@
         </p>
       </div>
     </footer>
+
+    <script src="./js/pricing-script.js"></script>
+
 </body>
 </html>

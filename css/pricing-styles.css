@@ -60,6 +60,22 @@ img{
     line-height: 0.93333;
     color: #173a56;
 }
+
+.green-btn{
+    border-radius: 4px;
+    background: #02897a;
+    border: none;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 250ms ease-in;
+}
+
+.green-btn:focus,
+.green-btn:hover{
+    background-color: #03685c;
+}
+
 /* #endregion */
 
 /* #region header styles */
@@ -88,11 +104,31 @@ img{
     display: block;
     line-height: 1.75;
     padding: 26px 0;
+    position: relative;
 }
 
-.current-link{
+.nav-link.current-link{
     font-weight: 600;
     line-height: 1.75;
+}
+
+.nav-link:not(.nav-link.current-link)::after{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: 20px;
+    display: block;
+    width: 100%;
+    height: 2px;
+    border-radius: 2px;
+    transform: scaleX(0);
+    background-color: #02897a;
+    transition: transform 250ms ease-in;
+}
+
+.nav-link:not(.nav-link.current):hover::after,
+.nav-link:not(.nav-link.current):focus::after{
+    transform: scaleX(1);
 }
 
 .header-btn-list {
@@ -119,7 +155,7 @@ img{
 .btn-sign:hover,
 .btn-sign:focus{
     background-color: #02897a;
-    border: none;
+    border-color: transparent;
     color: #fff;
 }
 
@@ -165,6 +201,7 @@ img{
     text-align: center;
     padding: 32px;
     font-family: "Montserrat", sans-serif;
+    transition: transform 250ms ease-in;
 }
 
 .price-item:nth-child(2) {
@@ -264,6 +301,11 @@ img{
     color: #02897a;
 }
 
+.price-item:has(.price-btn:focus),
+.price-item:has(.price-btn:hover){
+    transform: scale(110%);
+}
+
 /* #endregion */
 
 /* #region enterprise-section styles */
@@ -295,16 +337,12 @@ img{
 .enterprise-button {
     display: block;
     margin: 0 auto;
-    cursor: pointer;
     padding: 11px 18px;
-    border: none;
     border-radius: 8px;
     min-width: 224px;
-    background-color: #02897a;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 18px;
-    color: #fff;
 }
 /* #endregion */
 
@@ -339,6 +377,10 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #f4f5f7;
 }
 
 .using-subtitle {
@@ -353,7 +395,11 @@ img{
 /* #region asked-section styles */
 
 .asked-section {
-    padding: 75px 95px;
+    padding: 75px 0;
+}
+
+.asked-container{
+    padding:0 115px;
 }
 
 .asked-title {
@@ -372,17 +418,47 @@ img{
     margin-bottom: 38px;
 }
 
+.asked-item::after{
+    content: '';
+    display: block;
+    width: 100%;
+    border: 1px solid #e7e7e7;
+    margin-top: 22px;
+}
+
+.asked-item-content-container{
+    max-height: 28px;
+    overflow: hidden;
+    transition: max-height 300ms ease-in ;
+}
+
+.asked-item.active .asked-item-content-container{
+    max-height: 100%;
+}
+
 .asked-item-title-container{
     display: flex;
     gap: 16px;
     align-items: center;
+    margin-bottom: 14px;
 }
 
 .asked-item-btn{
     cursor: pointer;
     border: none;
+    width: 24px;
+    height: 24px;
     background-color: transparent;
+    background-image: url(../images/pricing-page-images/plus_circle.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.asked-item.active .asked-item-btn{
+    background-image: url(../images/pricing-page-images/minus_circle.svg);
+}
+
 .asked-subtitle {
     font-weight: 500;
     font-size: 18px
@@ -391,7 +467,6 @@ img{
 /* #endregion */
 
 /* #region joined-article styles */
-
 
 .joined-article {
     padding: 0 51px;
@@ -412,7 +487,7 @@ img{
     margin-bottom: 46px;
 }
 
-.joined--btn {
+.joined-btn {
     padding: 10px 34px;
     border: none;
     border-radius: 8px;
@@ -423,6 +498,12 @@ img{
     font-size: 20px;
     color: #02897a;
     cursor: pointer;
+    transition: background-color 250ms ease-in;
+}
+
+.joined-btn:focus,
+.joined-btn:hover{
+    background-color:#d6fffa;
 }
 
 /* #endregion */
@@ -430,7 +511,6 @@ img{
 /* #region footer styles */
 
 .footer {
-    padding-top: 75px;
     padding-bottom: 60px;
 }
 
@@ -461,6 +541,12 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms ease-in;
+}
+
+.footer-social-link:focus,
+.footer-social-link:hover{
+    background-color: #c8fcf3;
 }
 
 .footer-list {
@@ -508,6 +594,7 @@ img{
     border: 1px solid #bcd0e5;
     border-radius: 4px;
     background-color: #fff;
+    outline-color:#bcd0e5 ;
 }
 
 .footer-email-input::placeholder {
@@ -525,16 +612,10 @@ img{
 }
 
 .footer-button {
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
     min-width: 131px;
     height: 39px;
-    background: #02897a;
     padding: 8px 15px;
-    font-weight: 700;
     text-align: center;
-    color: #fff;
 }
 
 .footer-bottom-text {
