@@ -52,12 +52,24 @@
             <button class="btn-sign" type="button">Sign In</button>
           </li>
         </ul>
+        <button type="button" class="header-menu-btn">
+          <svg class="header-menu-btn-icon" width="28" height="31">
+            <use href="./images/symbol-defs.svg#icon-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
       <!-- Main page section -->
       <section class="hero-section">
         <div class="container hero-container">
+          <img
+            class="hero-image"
+            src="./images/product-page-images/hero-img.svg"
+            alt="hero-img"
+            width="338"
+            height="311"
+          />
           <div class="hero-content">
             <h1 class="hero-title">Work at the speed of thought</h1>
             <p class="hero-text">
@@ -73,13 +85,7 @@
               </li>
             </ul>
           </div>
-          <img
-            class="hero-image"
-            src="./images/product-page-images/hero-img.svg"
-            alt="hero-img"
-            width="610"
-            height="555"
-          />
+          
         </div>
       </section>
       <!-- Benefits section -->
@@ -134,6 +140,13 @@
 
           <ul class="services-list">
             <li class="services-item">
+              <img
+              class="services-item-image"
+              src="./images/product-page-images/management-img.svg"
+              alt="picture of catalog"
+              width="540"
+              height="500"
+              />
               <div class="services-content-container">
                 <p class="services-lead">Effortless Validation for</p>
                 <h3 class="services-subtitle">Management</h3>
@@ -159,15 +172,10 @@
                   </li>
                 </ul>
               </div>
-              <img
-                src="./images/product-page-images/management-img.svg"
-                alt="picture of catalog"
-                width="540"
-                height="500"
-              />
             </li>
             <li class="services-item">
               <img
+                class="services-item-image"
                 src="./images/product-page-images/support-img.svg"
                 alt="picture of laptop"
                 width="540"
@@ -217,6 +225,13 @@
               </div>
             </li>
             <li class="services-item">
+              <img
+              class="services-item-image"
+              src="./images/product-page-images/collaboration-img.svg"
+              alt="picture of completed catalog"
+              width="540"
+              height="500"
+              />
               <div class="services-content-container">
                 <p class="services-lead">Optimisation for</p>
                 <h3 class="services-subtitle">Collaborative</h3>
@@ -242,18 +257,12 @@
                   </li>
                 </ul>
               </div>
-              <img
-                src="./images/product-page-images/collaboration-img.svg"
-                alt="picture of completed catalog"
-                width="540"
-                height="500"
-              />
             </li>
           </ul>
         </div>
       </section>
       <!-- Section about expert of Product -->
-      <section class="expert-section">
+      <section class="expert-section hidden">
         <div class="container">
           <h2 class="expert-title">Quick & Easy Process</h2>
           <p class="expert-text">
@@ -302,7 +311,7 @@
         </div>
       </section>
       <!-- Contents strategies section -->
-      <section class="strategies-section">
+      <section class="strategies-section hidden">
         <div class="container">
           <h2 class="strategies-title">Contents Strategies</h2>
           <p class="strategies-text">
@@ -366,7 +375,7 @@
         </div>
       </section>
       <!-- Product services pack section -->
-      <section class="price-section">
+      <section class="price-section hidden">
         <div class="container">
           <h2 class="price-title">Price Table</h2>
           <p class="price-text">We offer competitive price</p>
@@ -427,7 +436,7 @@
         </div>
       </section>
       <!-- Client response section -->
-      <section class="response-section">
+      <section class="response-section hidden">
         <div class="container">
           <h2 class="response-title">What Clients Say</h2>
           <p class="response-text">
@@ -545,7 +554,7 @@
         </div>
       </section>
       <!-- Article about company which joined to Product -->
-      <article class="joined-article">
+      <article class="joined-article hidden">
         <div class="joined-text-container">
           <h2 class="joined-title">
             Join 100 Compannies who boost their business with Product
@@ -560,7 +569,7 @@
         />
       </article>
     </main>
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="container">
         <div class="footer-top-container">
           <div class="footer-socials-container">

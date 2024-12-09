@@ -31,5 +31,10 @@
     <symbol id="icon-cursor" viewBox="0 0 21 32">
       <path fill="#fff" style="fill: var(--color1, #fff)" d="M19.042 18.067l-17.21-17.21c-0.202-0.219-0.471-0.319-0.756-0.319-0.134 0-0.286 0.034-0.403 0.084-0.403 0.168-0.672 0.555-0.672 0.992v25.277c0 0.437 0.269 0.824 0.672 0.992 0.118 0.050 0.269 0.084 0.403 0.084 0.286 0 0.555-0.118 0.756-0.319l5.244-5.244 3.21 7.597c0.235 0.538 0.857 0.807 1.412 0.571l2.975-1.261c0.538-0.235 0.807-0.857 0.571-1.412l-3.378-8h6.42c0.437 0 0.824-0.269 0.992-0.672 0.168-0.387 0.084-0.857-0.235-1.16z"></path>
     </symbol>
+    <symbol id="icon-menu" viewBox="0 0 29 32">
+      <path fill="none" stroke="#173a56" style="stroke: var(--color1, #173a56)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.0968" d="M3.613 16h21.677"></path>
+      <path fill="none" stroke="#173a56" style="stroke: var(--color1, #173a56)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.0968" d="M3.613 8h21.677"></path>
+      <path fill="none" stroke="#173a56" style="stroke: var(--color1, #173a56)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.0968" d="M3.613 24h21.677"></path>
+    </symbol>
   </defs>
 </svg>
