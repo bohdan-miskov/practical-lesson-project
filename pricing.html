@@ -49,6 +49,11 @@
           <button class="btn-sign" type="button">Sign In</button>
         </li>
       </ul>
+      <button type="button" class="header-menu-btn">
+        <svg class="header-menu-btn-icon" width="28" height="31">
+          <use href="./images/symbol-defs.svg#icon-menu"></use>
+        </svg>
+      </button>
     </div>
   </header>
   <main>
@@ -125,10 +130,15 @@
      </section>
 
      <section class="using-section">
-      <div class="container">
+      <div class="container using-container">
         <h2 class="using-title">Product is being used with great effects alongside:</h2>
           <div class="using-content-container">
-            <img src="./images/pricing-page-images/amico.svg" alt="gadgets" width="528" height="392">
+            <img 
+            class="using-image"
+            src="./images/pricing-page-images/amico.svg" 
+            alt="gadgets" 
+            width="528" 
+            height="392">
               <ul class="using-list">
                 <li class="using-item">
                   <div class="using-item-title-container">
@@ -179,7 +189,6 @@
                 <button type="button" class="asked-item-btn"></button>
                 <h3 class="asked-subtitle">What are my payment option?</h3>
               </div>
-              <p class="asked-item-text"></p>
               <p class="asked-item-appear-text">After creating your account you will have an
                 oppurtunity to create your first project that will be associated withthe
                 collaborators e-mail. An invitation  will be sent automatically. Then,
@@ -232,18 +241,20 @@
 
   <!-- Article about company which joined to Product -->
       <article class="joined-article">
-        <div class="joined-text-container">
-          <h2 class="joined-title">
-            Join 100 Compannies who boost their business with Product
-          </h2>
-          <button class="joined-btn">Get This</button>
+        <div class="container joined-container">
+          <div class="joined-text-container">
+            <h2 class="joined-title">
+              Join 100 Compannies who boost their business with Product
+            </h2>
+            <button class="joined-btn">Get This</button>
+          </div>
+          <img
+            src="./images/product-page-images/screen.svg"
+            alt="photo of analytic screen"
+            width="351"
+            height="331"
+          />
         </div>
-        <img
-          src="./images/product-page-images/screen.svg"
-          alt="photo of analytic screen"
-          width="351"
-          height="331"
-        />
       </article>
     </main>
     <footer class="footer">

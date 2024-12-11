@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
       button.addEventListener('click', () => {
         // Отримуємо батьківський <li>, в якому знаходиться кнопка
         const parentLi = button.closest('.asked-item');
-        const content = parentLi.querySelector('.asked-item-content-container');
-        content.style.maxHeight = 28+'px';
+        const content = parentLi.querySelector('.asked-item-appear-text');
+        content.style.maxHeight = 0+'px';
         
         if (parentLi) {
           // Перемикаємо клас active
