@@ -107,6 +107,8 @@ img{
 
 .header-logo {
     margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .nav{
