@@ -273,14 +273,27 @@ img {
 
 .hero-container {
   text-align: center;
+  background-image: url(../images/product-page-images/hero-img.svg);
+  background-size: 338px 311px;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 311px;
 }
 
 @media only screen and (min-width: 768px) {
   .hero-container {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
     text-align: start;
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding-top: 0;
+  }
+}
+
+@media only screen and (min-width: 1150px) {
+  .hero-container {
+    background-size: 610px 555px;
+    padding-top: 112px;
+    padding-bottom: 112px;
   }
 }
 
@@ -291,12 +304,13 @@ img {
 @media only screen and (min-width: 768px) {
   .hero-content {
     text-align: start;
+    max-width: 416px;
   }
 }
 
 @media only screen and (min-width: 1150px) {
   .hero-content {
-    margin-right: auto;
+    max-width: 465px;
   }
 }
 
@@ -388,13 +402,6 @@ img {
     cursor: pointer;
     background-color: transparent;
     transition: color 250ms ease-in;
-  }
-}
-
-@media only screen and (min-width: 1150px) {
-  .hero-image {
-    width: 610px;
-    height: 555px;
   }
 }
 
