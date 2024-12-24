@@ -36,5 +36,8 @@
       <path fill="none" stroke="#173a56" style="stroke: var(--color1, #173a56)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.0968" d="M3.613 8h21.677"></path>
       <path fill="none" stroke="#173a56" style="stroke: var(--color1, #173a56)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.0968" d="M3.613 24h21.677"></path>
     </symbol>
+    <symbol id="icon-close-btn" viewBox="0 0 32 32">
+      <path d="M32 3.223l-3.223-3.223-12.777 12.777-12.777-12.777-3.223 3.223 12.777 12.777-12.777 12.777 3.223 3.223 12.777-12.777 12.777 12.777 3.223-3.223-12.777-12.777 12.777-12.777z"></path>
+    </symbol>
   </defs>
 </svg>
